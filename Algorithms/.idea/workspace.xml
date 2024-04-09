@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="dc1f96d8-aafe-4dfe-8036-e105bbb06e83" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\develop\maven\repository" />
+        <option name="mavenHome" value="D:/develop/maven/apache-maven-3.3.9" />
+        <option name="userSettingsFile" value="D:\develop\maven\apache-maven-3.3.9\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2K5uQD75CC26BSPVDdGks0M5u9w" />
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../aJavaOJ" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2045977" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RebelAgentSelection">
+    <selection>jr</selection>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\eclipse_worksapce\树形dp\src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="小国王" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="小国王" />
+      <module name="eclipse_worksapce" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test2.Main" />
+      <module name="eclipse_worksapce" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="计数问题" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="计数问题" />
+      <module name="eclipse_worksapce" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="石子合并" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="石子合并" />
+      <module name="eclipse_worksapce" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_04加分二叉树" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_04加分二叉树" />
+      <module name="eclipse_worksapce" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_04Windy数" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_04Windy数" />
+      <module name="eclipse_worksapce" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application._04加分二叉树" />
+        <item itemvalue="Application._04Windy数" />
+        <item itemvalue="Application.小国王" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dc1f96d8-aafe-4dfe-8036-e105bbb06e83" name="Default Changelist" comment="" />
+      <created>1673276746169</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1673276746169</updated>
+      <workItem from="1673276747909" duration="5108000" />
+      <workItem from="1673349570216" duration="5493000" />
+      <workItem from="1673938424479" duration="2587000" />
+      <workItem from="1674388135699" duration="6323000" />
+      <workItem from="1674471211937" duration="9650000" />
+      <workItem from="1674570025718" duration="1805000" />
+      <workItem from="1674659411560" duration="1568000" />
+      <workItem from="1675178863813" duration="1576000" />
+      <workItem from="1675227212687" duration="4040000" />
+      <workItem from="1675238457943" duration="4899000" />
+      <workItem from="1675315246662" duration="1275000" />
+      <workItem from="1675349400663" duration="3133000" />
+      <workItem from="1675437500130" duration="2364000" />
+      <workItem from="1675515114392" duration="4227000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="361" y="74" key="#Project_Structure" timestamp="1675520002610">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="74" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1675520002610" />
+    <state x="223" y="70" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1673279614093">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="223" y="70" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1673279614093" />
+    <state x="647" y="213" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1675266131748">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="647" y="213" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1675266131748" />
+    <state x="856" y="304" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1673276758459">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="856" y="304" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1536.824@0.0.1536.824" timestamp="1673276758459" />
+    <state x="904" y="170" key="FileChooserDialogImpl" timestamp="1674391869869">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="904" y="170" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1674391869869" />
+    <state x="249" y="0" key="SettingsEditor" timestamp="1675266175293">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1675266175293" />
+    <state x="777" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1674475898167">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="777" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1674475898167" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/区间dp/src/_05凸多边形的划分.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

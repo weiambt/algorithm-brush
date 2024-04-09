@@ -1,0 +1,29 @@
+package 第5讲树状数组;
+
+import java.util.*;
+import java.math.*;
+
+public class _01动态求连续区间和 {
+	static int INF = 0x3f3f3f3f;
+	static int N = 101000 , M = 2*N;
+	static int[] arr = new int[N];
+	static int[] tree = new int[N];
+	static int n,m;
+	static int lowbit(int x) {
+		return x&-x;
+	}
+	//在arr[x]的值添加v
+	static void add(int x,int v) {
+		
+	}
+	//计算arr[1~x]的和
+	static int query(int x) {
+		
+	}
+	public static void main(String[] sss) {
+		Scanner sc = new Scanner(System.in);
+		
+	}
+
+
+}

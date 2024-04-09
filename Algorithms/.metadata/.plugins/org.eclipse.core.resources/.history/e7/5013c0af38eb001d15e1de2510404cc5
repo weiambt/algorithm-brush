@@ -1,0 +1,33 @@
+package 搜索;
+
+import java.util.*;
+import java.math.*;
+import java.io.*;
+public class _16单词接龙 {
+	static int INF = 0x3f3f3f3f;
+	static int N = 50 , M = 2*N;
+	static int n,ans;
+	static char start;
+	static int[][] minCommonLen = new int[N][N];
+	static char[][] words = new char[N][N];
+	static void dfs(int x,int y,int cnt) {
+		
+	}
+	
+	public static void main(String[] sss) {
+		Scanner sc = new Scanner(System.in);
+		n = sc.nextInt();
+		for(int i=0;i<n;i++)
+			words[i] = sc.next().toCharArray();
+		start = sc.next().toCharArray()[0];
+		//预处理两个单词的最小重合部分长度
+		
+		for(int i=0;i<n;i++) {
+			if(words[i][0]==start) {
+				dfs(new String(words[i]),)
+			}
+		}
+		
+		
+	}
+}

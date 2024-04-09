@@ -1,0 +1,14 @@
+package cf;
+import java.util.*;
+import java.math.*;
+
+public class MainA {
+		static int INF = 0x3f3f3f3f;
+		static int N = 101000 , M = 2*N;
+		
+		static int n,m;
+
+		public static void main(String[] sss) {
+			Scanner sc = new Scanner(System.in);
+		}
+}

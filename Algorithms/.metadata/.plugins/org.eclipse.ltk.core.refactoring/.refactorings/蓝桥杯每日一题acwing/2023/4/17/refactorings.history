@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;AcWing3473鸡兔同笼.java&apos; to &apos;蓝桥杯每日一题acwing/src/_99备战国赛&apos;&#x0D;&#x0A;- Original project: &apos;蓝桥杯每日一题acwing&apos;&#x0D;&#x0A;- Destination element: &apos;蓝桥杯每日一题acwing/src/_99备战国赛&apos;&#x0D;&#x0A;- Original element: &apos;_99备战国赛.AcWing3473鸡兔同笼.java&apos;" description="Copy compilation unit" destination="/src&lt;_99备战国赛" element1="/src&lt;_99备战国赛{AcWing3473鸡兔同笼.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1682593218904" units="1" version="1.0"/>
+</session>

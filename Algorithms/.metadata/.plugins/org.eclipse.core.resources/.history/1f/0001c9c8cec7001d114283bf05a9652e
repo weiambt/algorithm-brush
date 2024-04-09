@@ -1,0 +1,41 @@
+package _26线性dp;
+
+import java.util.*;
+import java.math.*;
+import java.io.*;
+
+public class 最大的和 {
+	static int INF = 0x3f3f3f3f;
+	static int Mod = (int) 1e9;
+	static int N = 101000 , M = 2*N;
+	static int n,t;
+	static int[] arr = new int[N];
+	static int[] dp1 = new int[N];
+	static int[] dp2 = new int[N];
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		t = sc.nextInt();
+		while(t-->0) {
+			n = sc.nextInt();
+			for(int i=1;i<=n;i++)
+				arr[i] = sc.nextInt();
+			dp1[0] = 1;
+			for(int i=1;i<=n;i++) {
+				dp1[i] = Math.max(dp1[i-1]+arr[i], dp1[i-1]);
+				
+			}
+			
+			for(int i=n;i>0;i--) {
+				dp2[i] = Math.max(dp2[i+1]+arr[i], arr[i]);
+			}
+			int ans = -INF;
+			for(int i=1;i<n;i++)
+				ans = Math.max(ans,dp1[i]+dp2[i+1]);
+			System.out.println(ans);
+		}
+		
+	}
+	
+}
+

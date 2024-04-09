@@ -1,0 +1,20 @@
+package _13DFS;
+
+import java.util.*;
+import java.math.*;
+import java.io.*;
+
+public class ÅÅÁĞÊı×Ö {
+	static int INF = 0x3f3f3f3f;
+	static int N = 1010 , M = 2*N;
+	static int n,m,k;
+	static int[] dx = {1,0,-1,0};
+	static int[] dy = {0,1,0,-1};
+
+	static int[] 
+}
+class Edge{
+	int x;
+	int y;
+	long w;
+}

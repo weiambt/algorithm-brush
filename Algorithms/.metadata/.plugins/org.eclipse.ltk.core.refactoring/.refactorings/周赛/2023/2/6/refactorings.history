@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;B.java&apos; to &apos;周赛/src/_202302.acwing&apos;&#x0D;&#x0A;- Original project: &apos;周赛&apos;&#x0D;&#x0A;- Destination element: &apos;周赛/src/_202302.acwing&apos;&#x0D;&#x0A;- Original element: &apos;_202302.acwing.B.java&apos;" description="Copy compilation unit" destination="/src&lt;_202302.acwing" element1="/src&lt;_202302.acwing{B.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1676116709894" units="1" version="1.0"/>
+</session>

@@ -1,0 +1,47 @@
+package _13DFS;
+
+import java.util.*;
+import java.math.*;
+import java.io.*;
+
+public class ÅÅÁĞÊı×Ö {
+	static int INF = 0x3f3f3f3f;
+	static int N = 10100 , M = 2*N;
+	static int n,m;
+	static int[] dx = {1,0,-1,0};
+	static int[] dy = {0,1,0,-1};
+	static int[] fa = new int[N];
+	
+	static Edge[] edges = new Edge[N];
+	static int[] c = new int[N];
+	static int[] k = new int[N];
+	static int[] xx = new int[N];
+	static int[] yy = new int[N];
+	
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		for(int i=1;i<=n;i++) {
+			fa[i] = i;
+		}
+		n = sc.nextInt();
+		for(int i=1;i<=n;i++) {
+			xx[i] = sc.nextInt();
+			yy[i] = sc.nextInt();
+		}
+	}
+	static int find(int x) {
+		if(fa[x]==x) return x;
+		return fa[x] = find(fa[x]);
+	}
+}
+class Edge{
+	int x;
+	int y;
+	long w;
+	public Edge(int x,int y,long w) {
+		// TODO Auto-generated constructor stub
+		this.x = x;
+		this.y = y;
+		this.w = w;
+	}
+}

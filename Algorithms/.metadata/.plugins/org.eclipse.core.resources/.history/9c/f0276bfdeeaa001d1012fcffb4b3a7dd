@@ -1,0 +1,29 @@
+package _01Ç°×ººÍ;
+
+import java.util.*;
+import java.math.*;
+import java.io.*;
+
+public class _05¼¤¹âÕ¨µ¯ {
+	static int INF = 0x3f3f3f3f;
+	static int N = 10010 , M = 2*N;
+	static int[][] sum = new int[N][N];
+
+	static int n,r;
+
+	public static void main(String[] sss) {
+		Scanner sc = new Scanner(System.in);
+		n = sc.nextInt();
+		k = sc.nextInt();
+		int ans=0;
+		for(int i=1;i<=n;i++){
+			sum[i] = (sum[i-1]%k + sc.nextInt())%k;
+			ans += mp[sum[i]];
+			mp[sum[i]] += 1;
+		}
+		
+		ans += mp[0];
+		System.out.println(ans);
+		
+	}
+}

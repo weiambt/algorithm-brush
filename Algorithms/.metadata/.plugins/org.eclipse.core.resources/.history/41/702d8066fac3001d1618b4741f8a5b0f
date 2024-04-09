@@ -1,0 +1,20 @@
+package _24组合数学;
+
+import java.util.*;
+
+public class 整数划分 {
+	static int INF = 0x3f3f3f3f;
+	static int N = 3010 , M = 2*N;
+	static int Mod = 1000000007;
+	static int n;
+	static long[][] dp = new long[N][N];
+	static long[] ans = new long[N];
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		n = sc.nextInt();
+		
+	}
+	
+}
+

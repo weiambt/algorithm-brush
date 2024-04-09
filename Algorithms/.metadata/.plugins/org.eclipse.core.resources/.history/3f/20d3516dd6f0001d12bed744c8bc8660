@@ -1,0 +1,29 @@
+package ËÑË÷;
+
+import java.util.*;
+import java.math.*;
+import java.io.*;
+
+public class _tt {
+	static int INF = 0x3f3f3f3f;
+	static int N = 109000 , M = 2*N;
+	static int n,m;
+	static TreeMap<Integer,Integer> mp = new TreeMap<Integer, Integer>();
+	
+	public static void main(String[] sss) {
+		Scanner sc = new Scanner(System.in);
+		n = sc.nextInt();
+		m = sc.nextInt();
+		for(int i=1;i<=n;i++) {
+			int idx = sc.nextInt();
+			int val = sc.nextInt();
+			mp.put(idx,mp.getOrDefault(idx, 0)+val);
+		}
+		
+		while(m-->0) {
+			int l = sc.nextInt();
+			int r = sc.nextInt();
+			
+		}
+	}
+}

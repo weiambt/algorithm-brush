@@ -1,0 +1,94 @@
+package _13DFS;
+
+import java.util.*;
+import java.math.*;
+import java.io.*;
+
+public class 排列数字 {
+	static int INF = 0x3f3f3f3f;
+	static int N = 10100 , M = 2*N;
+	static int n,m;
+	static int[] dx = {1,0,-1,0};
+	static int[] dy = {0,1,0,-1};
+	static int[] fa = new int[N];
+	
+	static Edge[] edges = new Edge[N];
+	static int idx;
+	static int[] c = new int[N];
+	static int[] k = new int[N];
+	static int[] xx = new int[N];
+	static int[] yy = new int[N];
+	
+	static long kruskal() {
+		Arrays.sort(edges,0,idx);
+		int cnt = 0;
+		long ans = 0;
+		for(int i=0;i<idx;i++) {
+			int x = edges[i].x;
+			int y = edges[i].y;
+			long w = edges[i].w;
+			int a = find(x),b = find(y);
+			if(a!=b) {
+				fa[a] = b;
+				cnt++;
+				ans += w;
+			}
+			
+		}
+		System.out.println(cnt);
+		return ans;
+	}
+	
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		n = sc.nextInt();
+		for(int i=1;i<=n;i++) {
+			xx[i] = sc.nextInt();
+			yy[i] = sc.nextInt();
+		}
+		for(int i=1;i<=n;i++) {
+			c[i] = sc.nextInt();
+		}
+		for(int i=1;i<=n;i++) {
+			k[i] = sc.nextInt();
+		}
+		
+		for(int i=1;i<=n;i++) {
+			fa[i] = i;
+		}
+
+		//建立超级原点，把发电站转换成边权
+		for(int i=1;i<=n;i++) {
+			edges[idx++] = new Edge(0,i,c[i]);
+		}
+		//建图
+		for(int i=1;i<=n;i++) {
+			for (int j = 1; j <= n; j++) {
+				edges[idx++] = new Edge(i,j,(long)(k[i]+k[j])*(Math.abs(xx[i]-xx[j]) + Math.abs(yy[i]-yy[j]) ));
+			}
+		}
+		
+		long ans = kruskal();
+		System.out.println(ans);
+	}
+	static int find(int x) {
+		if(fa[x]==x) return x;
+		return fa[x] = find(fa[x]);
+	}
+}
+class Edge implements Comparable<Edge>{
+	int x;
+	int y;
+	long w;
+	public Edge(int x,int y,long w) {
+		// TODO Auto-generated constructor stub
+		this.x = x;
+		this.y = y;
+		this.w = w;
+	}
+	@Override
+	public int compareTo(Edge o) {
+		// TODO Auto-generated method stub
+		return (int) (w-o.w);
+	}
+}

@@ -1,0 +1,34 @@
+package ÀýÌâ;
+
+import java.util.*;
+import java.math.*;
+import java.awt.Color;
+import java.io.*;
+
+public class boyilun {
+		static int INF = 1000000007;
+		static int N = 101000 , M = 2*N;
+		static int[] sg = new int[N];
+		static PII[] arr = new PII[N];
+		static int n,m,idx;
+		
+		public static void main(String[] sss) {
+			Scanner sc = new Scanner(System.in);
+			n = sc.nextInt();
+			for(int i=1;i<=n;i++) {
+				int a = sc.nextInt();
+				int b = sc.nextInt();
+				arr[idx++] = new PII(a,b);
+			}
+
+		}
+		
+}
+class PII{
+	int l,r;
+	public PII(int l,int r) {
+		// TODO Auto-generated constructor stub
+		this.l = l;
+		this.r = r;
+	}
+}

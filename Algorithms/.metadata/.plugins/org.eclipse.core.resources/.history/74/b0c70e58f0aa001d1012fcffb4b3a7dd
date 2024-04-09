@@ -1,0 +1,56 @@
+package _01Ç°×ººÍ;
+
+import java.util.*;
+import java.math.*;
+import java.io.*;
+
+public class _05¼¤¹âÕ¨µ¯ {
+	static int INF = 0x3f3f3f3f;
+	static int N = 10010 , M = 2*N;
+	static int[][] sum = new int[N][N];
+	static Node[] g = new Node[N];
+	static int n,r;
+
+	public static void main(String[] sss) {
+		Scanner sc = new Scanner(System.in);
+		n = sc.nextInt();
+		r = sc.nextInt();
+		for(int i=1;i<=n;i++) {
+			int a,b,c;
+			a = sc.nextInt();
+			b = sc.nextInt();
+			c = sc.nextInt();
+			g[i] = new Node(a,b,c);
+		}
+		Arrays.sort(g,1,n+1);
+		for(int i=1;i<=n;i++) {
+			System.out.println(g[i].x+" "+g[i].y);
+		}
+		int ans=0;
+		
+		System.out.println(ans);
+		
+	}
+}
+class Node implements Comparable<Node>{
+	int x,y,w;
+	public Node(int x,int y,int w) {
+		// TODO Auto-generated constructor stub
+		this.x = x;
+		this.y = y;
+		this.w = w;
+	}
+	@Override
+	public int compareTo(Node o) {
+		// TODO Auto-generated method stub
+		if(o.y!=y)
+			return y-o.y;
+		return x-o.x;
+	}
+	@Override
+	public String toString() {
+		// TODO Auto-generated method stub
+		return super.toString();
+	}
+	
+}

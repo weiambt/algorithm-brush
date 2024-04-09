@@ -1,0 +1,26 @@
+package ÀýÌâ;
+
+import java.util.*;
+import java.math.*;
+import java.awt.Color;
+import java.io.*;
+
+public class boyilun {
+		static int INF = 1000000007;
+		static int N = 101000 , M = 2*N;
+		static int[] sg = new int[N];
+		static int[] h = new int[N],e = new int[N],ne = new int[N];
+		static int n,m;
+		
+		public static void main(String[] sss) {
+			Scanner sc = new Scanner(System.in);
+			n = sc.nextInt();
+			for(int i=1;i<=n;i++) {
+				int a = sc.nextInt();
+				int b = sc.nextInt();
+				
+			}
+
+		}
+		
+}

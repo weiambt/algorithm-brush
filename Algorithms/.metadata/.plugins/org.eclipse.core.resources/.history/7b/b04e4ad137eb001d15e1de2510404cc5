@@ -1,0 +1,23 @@
+package ËÑË÷;
+
+import java.util.*;
+import java.math.*;
+import java.io.*;
+public class _16µ¥´Ê½ÓÁú {
+	static int INF = 0x3f3f3f3f;
+	static int N = 50 , M = 2*N;
+	static int n,start,ans;
+	static int[][] vis = new int[N][N];
+	static char[][] = new char[N][N];
+	static void dfs(int x,int y,int cnt) {
+		
+	}
+	
+	public static void main(String[] sss) {
+		Scanner sc = new Scanner(System.in);
+		n = sc.nextInt();
+		for(int i=1;i<=n;i++)
+			arr[i] = sc.next();
+		
+	}
+}

@@ -1,0 +1,23 @@
+package 第六讲双指针BFS与图论;
+
+import java.util.*;
+import java.math.*;
+import java.io.*;
+
+public class _01日志统计 {
+	static int INF = 0x3f3f3f3f;
+	static int N = 101000 , M = 2*N;
+	static int[][] arr = new int[N][2];
+	static int n,d,k;
+
+	public static void main(String[] sss) {
+		Scanner sc = new Scanner(System.in);
+		n = sc.nextInt();
+		d = sc.nextInt();
+		k = sc.nextInt();
+		for(int i=1;i<=n;i++) {
+			arr[i][0] = sc.nextInt();
+			arr[i][1] = sc.nextInt();
+		}
+	}
+}

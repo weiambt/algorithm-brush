@@ -1,0 +1,17 @@
+package _202302.acwing._102;
+import java.util.*;
+
+public class A {
+	static int INF = 0x3f3f3f3f;
+	static int N = 101000,M = 2*N;
+	static int[] arr = new int[N];
+	static int n,m;
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int a = sc.nextInt();
+		int b = sc.nextInt();
+		int c = sc.nextInt();
+		
+	}
+}

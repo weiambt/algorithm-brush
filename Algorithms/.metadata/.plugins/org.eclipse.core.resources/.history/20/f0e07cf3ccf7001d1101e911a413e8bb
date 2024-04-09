@@ -1,0 +1,55 @@
+package ÀýÌâ;
+
+import java.util.*;
+import java.math.*;
+import java.awt.Color;
+import java.io.*;
+
+public class boyilun {
+		static int INF = 1000000007;
+		static int N = 101000 , M = 2*N;
+		static int[] sg = new int[N];
+		static int[] h = new int[N],e = new int[N],ne = new int[N];
+		static int n,m,k,idx;
+		static void add(int a,int b) {
+			e[idx] = b;
+			ne[idx] = h[a];
+			h[a] = idx++;
+		}
+		
+		static int getSg(int x) {
+			if(sg[x]!=-1) return sg[x];
+			HashSet<Integer> se  = new HashSet<Integer>();
+			for(int i=h[x];i!=-1;i=ne[i]) {
+				int j = e[i];
+				se.add(getSg(j));
+			}
+			for(int i=0;;i++) {
+				if(!se.contains(i))
+					return sg[x] = i;
+			}
+		}
+		
+		public static void main(String[] sss) {
+			Scanner sc = new Scanner(System.in);
+			Arrays.fill(h,-1);
+			Arrays.fill(sg,-1);
+			n = sc.nextInt();
+			m = sc.nextInt();
+			k = sc.nextInt();
+			while(m-->0) {
+				int a = sc.nextInt();
+				int b = sc.nextInt();
+				add(a,b);
+			}
+			int res = 0;
+			while(k-->0) {
+				int x = sc.nextInt();
+				res ^= getSg(x);
+			}
+			if(res!=0) System.out.println("win");
+			else System.out.println("lose");
+
+		}
+		
+}

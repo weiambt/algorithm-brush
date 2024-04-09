@@ -1,0 +1,31 @@
+package µÚÁù½²Ë«Ö¸ÕëBFSÓëÍ¼ÂÛ;
+
+import java.util.*;
+import java.math.*;
+import java.io.*;
+
+public class _02Ï×¸ø°¢¶û¼ªÙ¯µÄ»¨Êø {
+	static int INF = 0x3f3f3f3f;
+	static int N = 1010 , M = 2*N;
+	static char[][] arr = new char[N][N];
+	static int t,r,c;
+
+	public static void main(String[] sss) {
+		Scanner sc = new Scanner(System.in);
+		t = sc.nextInt();
+		while(t-->0) {
+			r = sc.nextInt();
+			c = sc.nextInt();
+			for(int i=1;i<=r;i++) {
+				String string = sc.nextLine();
+				for(int j=1;j<=c;j++)
+					
+			}
+		}
+		for(int i=1;i<=n;i++) {
+			arr[i][0] = sc.nextInt();
+			arr[i][1] = sc.nextInt();
+		}
+		
+	}
+}

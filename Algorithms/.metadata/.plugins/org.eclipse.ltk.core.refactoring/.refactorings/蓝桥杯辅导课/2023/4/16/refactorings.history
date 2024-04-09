@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;E.java&apos; to &apos;蓝桥杯辅导课/src/_2023真题&apos;&#x0D;&#x0A;- Original project: &apos;蓝桥杯辅导课&apos;&#x0D;&#x0A;- Destination element: &apos;蓝桥杯辅导课/src/_2023真题&apos;&#x0D;&#x0A;- Original element: &apos;_2023真题.E.java&apos;" description="Copy compilation unit" destination="/src&lt;_2023真题" element1="/src&lt;_2023真题{E.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1681975606330" units="1" version="1.0"/>
+</session>

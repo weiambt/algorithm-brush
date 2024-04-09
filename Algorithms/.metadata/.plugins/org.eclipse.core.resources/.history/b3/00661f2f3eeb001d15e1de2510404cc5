@@ -1,0 +1,28 @@
+package ËÑË÷;
+
+import java.util.*;
+import java.math.*;
+import java.io.*;
+
+public class _tt {
+	static int INF = 0x3f3f3f3f;
+	static int N = 109 , M = 2*N;
+	static int n,m,ans=N;
+	static int[] st = new int[N];
+	
+	static void dfs(int pos) {
+		if(pos>=n) {
+			for(int i=0;i<n;i++)
+				if(st[i]==1)
+					System.out.print(i);
+		}
+	}
+	
+	public static void main(String[] sss) {
+		Scanner sc = new Scanner(System.in);
+		n = sc.nextInt();
+		
+		dfs(0);
+
+	}
+}

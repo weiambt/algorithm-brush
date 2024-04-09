@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;_07&apos; to &apos;_07并查集&apos;&#x0D;&#x0A;- Original project: &apos;蓝桥杯每日一题acwing&apos;&#x0D;&#x0A;- Original element: &apos;蓝桥杯每日一题acwing/src/_07&apos;&#x0D;&#x0A;- Renamed element: &apos;蓝桥杯每日一题acwing/src/_07并查集&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;_07&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;_07" name="_07并查集" qualified="false" references="true" stamp="1676975741426" textual="false" version="1.0"/>
+</session>

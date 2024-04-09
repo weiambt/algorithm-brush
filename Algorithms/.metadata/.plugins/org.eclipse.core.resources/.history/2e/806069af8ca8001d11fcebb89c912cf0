@@ -1,0 +1,29 @@
+package cf;
+import java.util.*;
+import java.math.*;
+
+public class MainA {
+		static int INF = 0x3f3f3f3f;
+		static int N = 1010 , M = 2*N;
+		static int[] cnt = new int[N];
+		static int n,m;
+
+		public static void main(String[] sss) {
+			Scanner sc = new Scanner(System.in);
+			m = sc.nextInt();
+			while(m-->0) {
+				n = sc.nextInt();
+				for(int i=1;i<=n;i++) {
+					cnt[i] = cnt[i-1]+sc.nextInt()==2?1:0;
+				}
+				for(int i=1;i<=n-1;i++) {
+					if(cnt[i] == cnt[n] - cnt[i]) {
+						System.out.println(i);
+						break;
+					}
+						
+				}
+					
+			}
+		}
+}

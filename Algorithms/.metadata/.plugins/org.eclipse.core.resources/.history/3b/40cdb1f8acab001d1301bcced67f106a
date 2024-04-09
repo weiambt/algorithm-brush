@@ -1,0 +1,33 @@
+package 第三讲_数学与简单DP;
+import java.util.*;
+import java.math.*;
+import java.text.DateFormatSymbols;
+import java.awt.geom.AffineTransform;
+import java.io.*;
+
+public class _07地宫取宝 {
+		static int INF = 0x3f3f3f3f;
+		static int N = 101 , M = 2*N;
+		static int[][] arr = new int[N][N];
+		static int[][][][] dp = new int[N][N][20][20];
+		static int n,m,k;
+		
+		public static void main(String[] sss) {
+			Scanner sc = new Scanner(System.in);
+			n = sc.nextInt();
+			m = sc.nextInt();
+			k = sc.nextInt();
+			for(int i=1;i<=n;i++)
+				for(int j=1;j<=m;j++)
+					arr[i][j] = sc.nextInt();
+			
+			for(int i=1;i<=n;i++)
+				for(int j=1;j<=m;j++)
+					for(int cnt=1;cnt<=k;k++)
+						for(int mx=0;mx<=12;mx++) {
+							dp[i][j][cnt][mx] += dp[i-1][j][cnt][mx] + dp[i][j-1][cnt][mx];
+							if(arr[i][j] == mx)
+								dp[i][j][cnt][mx] += dp[i-1][j][cnt-1][mx];
+						}
+		}
+}

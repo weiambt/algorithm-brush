@@ -1,0 +1,70 @@
+package 第三讲_数学与简单DP;
+import java.util.*;
+import java.math.*;
+import java.text.DateFormatSymbols;
+import java.awt.geom.AffineTransform;
+import java.io.*;
+
+public class _03饮料换购 {
+		static int INF = 0x3f3f3f3f;
+		static int N = 101 , M = 2*N;
+		static Integer[] arr = new Integer[N];
+		static int[] vis = new int[N];
+		static int n,m;
+		
+		public static void main(String[] sss) {
+			Scanner sc = new Scanner(System.in);
+			n = sc.nextInt();
+			int startVal = -1,startIdx=-1;
+			for(int i=1;i<=n;i++) {
+				arr[i] = sc.nextInt();
+				if(i==1)
+					startVal = arr[i];
+			}
+			Arrays.sort(arr,1,n+1,(a,b)->(Math.abs(a)-Math.abs(b)));
+			int flag = 0;
+			for(int i=1;i<=n;i++) {
+				if(arr[i]==startVal)
+					startIdx = i;
+				if(flag==0 && arr[i]<0) vis[i]=2;
+				if(arr[i]>0) flag = 1;
+			}
+			flag = 0;
+			for(int i=n;i>=1;i--) {
+				if(flag==0 && arr[i]>0) vis[i]=2;
+				if(arr[i]<0) flag = 1;
+			}
+			if(vis[startIdx]==2) {
+				System.out.println(1);
+				return;
+			}
+			int l = 1,r = n;
+			int i=1;
+			while(i<=n && vis[i]==2) {
+				i++;
+			}
+			l = i;
+			i = n;
+			while(i>=1 && vis[i]==2) {
+				i--;
+			}
+			r = i;
+			int ans = r-l+1;
+//			if(startIdx-l>1 && r-startIdx>1) 
+//				ans -= 2;
+//			else if(startIdx-l<=1 && r-startIdx<=1)
+//				ans -= 0;
+//			else ans -= 1;
+			
+			i = l;
+			while(i<=n && arr[i]>0) 
+				i++;
+			if(i!=startIdx && i-1!=startIdx) ans--;
+			
+			i = r;
+			while(i>=1 && arr[i]<0) i--;
+			if(i!=startIdx && i+1!=startIdx) ans--;
+			
+			System.out.println(ans);
+		}
+}

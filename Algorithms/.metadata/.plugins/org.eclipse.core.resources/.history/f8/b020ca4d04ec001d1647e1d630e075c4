@@ -1,0 +1,39 @@
+package _202302.acwing._102;
+import java.util.*;
+
+public class C {
+	static int INF = 0x3f3f3f3f;
+	static int N = 201000,M = 2*N;
+	static int[] arr = new int[N];
+
+	static int ans,n,k;
+	
+
+	public static void main(String[] args) {
+		Scanner sc =  new Scanner(System.in);
+		n = sc.nextInt();
+		k = sc.nextInt();
+		for(int i=1;i<=n;i++) 
+			arr[i] = sc.nextInt();
+		HashMap<Integer,Integer> mp = new HashMap<Integer, Integer>();
+		TreeSet<Integer>[] last = new TreeSet[N];
+		TreeSet<Integer> tmp = new TreeSet<Integer>();
+		for(int i=n;i>0;i--) {
+			tmp.add(arr[i]);
+			last[i] = tmp;
+		}
+		
+		for(int i=1;i<=n;i++) {
+			if(arr[i]%k==0) {
+				if(arr[i]*k>1e9) continue;
+				int[] tmp;
+				if(i+1<=n)
+					tmp = last[i+1].toArray();
+				ans += mp.get(arr[i]/k) * cnt;
+			}
+			mp.put(arr[i],mp.getOrDefault(arr[i], 0)+1);
+		}
+		System.out.println(ans);
+		
+	}
+}

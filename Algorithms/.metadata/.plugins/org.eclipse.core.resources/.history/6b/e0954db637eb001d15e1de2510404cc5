@@ -1,0 +1,21 @@
+package ËÑË÷;
+
+import java.util.*;
+import java.math.*;
+import java.io.*;
+public class _16µ¥´Ê½ÓÁú {
+	static int INF = 0x3f3f3f3f;
+	static int N = 109 , M = 2*N;
+	static int n,m,sx,sy,ans;
+	static int[][] vis = new int[N][N];
+	static void dfs(int x,int y,int cnt) {
+		
+	}
+	
+	public static void main(String[] sss) {
+		Scanner sc = new Scanner(System.in);
+		int k = sc.nextInt();
+		
+		
+	}
+}
