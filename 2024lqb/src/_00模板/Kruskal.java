@@ -24,7 +24,7 @@ public class Kruskal {
 	static int kruskal() {
 		Arrays.sort(edges,0,idx,(a,b)->(a.w-b.w));
 		int cnt = 0,res = 0;
-		for(int i=0;i<n;i++) {
+		for(int i=0;i<m;i++) {
 			int a = edges[i].a;
 			int b = edges[i].b;
 			int w = edges[i].w;
