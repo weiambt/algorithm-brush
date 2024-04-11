@@ -12,6 +12,6 @@ public class ¿ìËÙÃİ {
 		return res%mod;
 	}
 	public static void main(String[] args) {
-		System.out.println(qpow(10,10));
+		System.out.println(qpow(10,10,10000));
 	}
 }

@@ -46,10 +46,7 @@
 <fullyQualifiedTypeName name="javax.security.auth.kerberos.KerberosKey"/>
 <fullyQualifiedTypeName name="java.util.HashSet"/>
 <fullyQualifiedTypeName name="_99备战国赛.Node"/>
-<fullyQualifiedTypeName name="java.util.PriorityQueue"/>
 <fullyQualifiedTypeName name="java.util.Queue"/>
-<fullyQualifiedTypeName name="java.util.LinkedList"/>
-<fullyQualifiedTypeName name="java.util.TreeMap"/>
 <fullyQualifiedTypeName name="java.lang.Math"/>
 <fullyQualifiedTypeName name="java.io.StreamTokenizer"/>
 <fullyQualifiedTypeName name="java.io.BufferedReader"/>
@@ -58,6 +55,9 @@
 <fullyQualifiedTypeName name="java.io.PrintWriter"/>
 <fullyQualifiedTypeName name="java.lang.System"/>
 <fullyQualifiedTypeName name="java.io.ObjectInputStream.GetField"/>
+<fullyQualifiedTypeName name="java.util.TreeMap"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="java.util.PriorityQueue"/>
+<fullyQualifiedTypeName name="java.util.LinkedList"/>
 </qualifiedTypeNameHistroy>
