@@ -1,0 +1,37 @@
+
+
+Q：这个群是用来干嘛的？
+A：刷题路上有人互相交流题目肯定比孤军奋战更有效，遇到问题就随时在群内提问吧！由于本群设置了一些入群门槛，一定程度上保证了群内的讨论质量。
+
+Q：在哪学习算法竞赛相关知识？
+A：https://www.douban.com/doulist/151313614/
+
+Q：如何提高力扣周赛成绩？
+A：1. 找到自己的弱项，针对练习（比如 DP）。2. 练习时选择略高于自己分数 50~100 的题目，参考下面的【力扣题目难度】链接。3. 周赛后记得看我的直播~
+
+Q：如何提高 Codeforces 成绩？如何快速找到问题的切入点？
+A：多练构造题。具体看我的这篇知乎回答
+https://www.zhihu.com/question/339795230/answer/868748153
+
+Q：为什么灵茶山喜欢用 Go 语言刷题？
+A：我需要一个库函数丰富、有零拷贝切片、运行效率高且语法简单的语言，综合来看选了 Go。目前已基于 Go 实现了大部分竞赛算法，见
+【GitHub 算法竞赛模板库】 
+https://github.com/EndlessCheng/codeforces-go
+
+Q：群内有什么定期的活动吗？
+A：周一至周五，群主每天分享一道算法趣题
+【灵茶の试炼】 https://docs.qq.com/sheet/DWGFoRGVZRmxNaXFz
+周赛后【B站直播】讲题（一般周日下午 2 点开始）
+https://live.bilibili.com/1315966
+
+【力扣周赛预测网站】
+https://lccn.lbao.site/
+
+【力扣周赛题目难度】
+https://zerotrac.github.io/leetcode_problem_rating/
+https://huxulm.github.io/lc-rating/
+
+【Go 语言相关资料】
+快速入门：https://gobyexample-cn.github.io/
+七日实现系列，适合小项目练手：https://geektutu.com/post/geecache.html
+Go 语言设计与实现：https://draveness.me/golang/
